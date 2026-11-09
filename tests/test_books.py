@@ -9,7 +9,7 @@ def test_create_book_success():
     assert book is not None
     assert book["title"] == "Война и мир"
 
-def test_create_book_empty_title()
+def test_create_book_empty_title():
     def create_book(title, author, genre):
         if not title or not author:
             return None
